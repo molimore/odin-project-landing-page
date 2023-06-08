@@ -128,6 +128,40 @@ header {
 }
 
 
+/* Quote starts here */
+
+.quotes {
+    background-color: #e5e7eb;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.quotes p {
+    background-color: #e5e7eb;
+    padding: 0;
+    margin: 0;
+    max-width: 1000px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: light italic;
+    color: #1f2937;
+}
+
+.quote-author {
+    font-size: 20;
+    font-weight: 700;
+    align-self: flex-end
+}
 
 
 
@@ -138,12 +172,6 @@ header {
     flex: 1;
 }
 
-.quote {
-    background-color: #e5e7eb;
-    width: 100%;
-    min-height: 100px;
-    flex: 1;
-}
 
 footer {
     width: 100%;
