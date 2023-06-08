@@ -4,6 +4,7 @@
 
 body {
     background-color: #1f2937;
+    box-sizing: border-box;
 }
 
 /* here starts header */
@@ -43,9 +44,18 @@ header {
 
 #intro {
     display: flex;
-
+    margin-left: 150px;
+    margin-right: 150px;
+    gap: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    align-items: center;
 }
 
+#intro-text {
+    min-width: 600px;
+    max-height: 400px;
+}
 .headline {
     font-size: 48px;
     font-weight: bolder;
@@ -55,13 +65,30 @@ header {
 .subtext {
     font-size: 18px;
     color: #e5e7eb;
+    min-width: 400px;
+    max-height: 400px;
+
 }
 
 #intro-img {
-    height: 500px;
-    width: 500px;
+    height: 300px;
+    width: 400px;
     object-fit: cover;
+    border-radius: 15px;
 }
+
+.signup-button {
+    background-color: #3882f6 ;
+    color:#e5e7eb;
+    width: 120px;
+    height: 40px;
+    font-size: 24;
+    font-weight: 900;
+    border-radius: 10px;
+    border: 0;
+}
+
+/* here starts information */
 
 .information, .call-to-action {
     background-color: white;
